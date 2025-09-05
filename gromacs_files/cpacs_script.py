@@ -1,4 +1,4 @@
-# This Python scripts executes PaCS MD to smash in small ligands to GPCRs
+# cPACS Python script
 
 #run using conda environment containing MDTraj and Numpy
 import mdtraj as md
@@ -11,10 +11,10 @@ from ast import literal_eval
 
 #define PaCS parameters here
 total_batches = 500 #insert total no of batch here
-batch_size = 3 #insert no of runs per cycle here
-cycle_size = 3 #insert no of cycles per batch here
-max_wait = 1000
-slurm_mode = False
+batch_size = 3      #insert no of runs per cycle here
+cycle_size = 3      #insert no of cycles per batch here
+max_wait = 1000     # 
+slurm_mode = False  # Run script using slurm
 
 #load initial file
 init = 'init.gro'
