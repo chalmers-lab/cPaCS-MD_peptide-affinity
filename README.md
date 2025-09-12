@@ -17,7 +17,7 @@ PaCS-MD simulations are executed using the `cpacs_script.py` provided. Below are
 
 ## Installation
 
-1. **Install Conda (if not installed):**
+1. **Install Conda:**
    If Conda is not already installed, download and install [Miniconda](https://docs.conda.io/en/latest/miniconda.html) or [Anaconda](https://www.anaconda.com/products/individual).
 
 2. **Create the Conda environment:**
@@ -26,12 +26,12 @@ PaCS-MD simulations are executed using the `cpacs_script.py` provided. Below are
    ```bash
    conda env create -f pacs.yml
 
-3. **Activate the Conda environemnt:**
+3. **Activate the Conda environment:**
    Once the environment is created, activate it with:
     ```bash
    conda activate pacs
 
 ## Running Simulations ##
-After setting up the environment, navigate to the directory containing cpacs_script.py, your and your equilibrated gromacs input file, as well as the appropriate .mdp file, and run the simulation with the following command:
+Create a directory containing the cpacs_script.py, your equilibrated gromacs input file, as well as the appropriate .mdp file. Run the simulation:
  ```bash
 python cpacs_script.py
