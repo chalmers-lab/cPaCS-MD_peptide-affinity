@@ -15,18 +15,18 @@ PaCS-MD simulations are executed using the `cpacs_script.py` provided. Below are
 2. **PaCS Environment Installation:**
    To set up the PaCS environment, use the `pacs.yml` file provided in the repository. It is recommended to use Conda for environment management.
 
-## Installation Steps
+## Installation
 
 1. **Install Conda (if not installed):**
    If Conda is not already installed, download and install [Miniconda](https://docs.conda.io/en/latest/miniconda.html) or [Anaconda](https://www.anaconda.com/products/individual).
 
-2. **Create and activate the Conda environment:**
+2. **Create the Conda environment:**
    In the terminal, navigate to the directory containing the `pacs.yml` file and run the following command to create the environment:
 
    ```bash
    conda env create -f pacs.yml
 
-3. **Activate the Conda environemnte:**
+3. **Activate the Conda environemnt:**
    Once the environment is created, activate it with:
     ```bash
    conda activate pacs
